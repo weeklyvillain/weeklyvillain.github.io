@@ -7,10 +7,10 @@ export const NavBar = (): JSX.Element => {
         <div className="flex-none">
             <ul className="menu menu-horizontal px-1">
                 <li>
-                    <a>Projects</a>
+                    <a href="#">Projects</a>
                 </li>
                 <li>
-                    <a>Contact</a>
+                    <a href="#">Contact</a>
                 </li>
             </ul>
         </div>
