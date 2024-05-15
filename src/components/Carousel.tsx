@@ -27,7 +27,7 @@ export const Carousel = (props: CarouselProps): JSX.Element => {
             props.images.map((imageUrl, index) => {
                 return (
                     <div id={"slide" + index} className="carousel-item relative w-fit p-10">
-                        <img src={imageUrl} alt="carousel project image" className="w-fit" />
+                        <img src={imageUrl} alt="carousel project" className="w-fit" />
                         <div className="absolute flex justify-between transform -translate-y-1/2 left-12 right-12 top-1/2">
                         <a href={"#slide" + prevSlide(index)} className="btn btn-circle">❮</a> 
                         <a href={"#slide" + nextSlide(index)} className="btn btn-circle">❯</a>
