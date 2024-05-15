@@ -41,7 +41,7 @@ Maecenas placerat euismod tortor id scelerisque. Suspendisse sem nisi, fermentum
           </div>
           <div className="w-2/3">
             {
-              project?.images.gallery.length === 0 && <img src={project?.images.hero} alt="dasdasd" className="p-24 pt-0 w-full rounded-lg shadow-2xl" />
+              project?.images.gallery.length === 0 && <img src={project?.images.hero} alt="dasdasd" className="p-24 pt-0 w-full" />
             }
             {
               project?.images.gallery.length !== 0 && <Carousel images={project?.images.gallery || []} />
